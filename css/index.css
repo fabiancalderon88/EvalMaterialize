@@ -1,0 +1,118 @@
+body{
+  background-image: url(../img/Fondo.jpg);
+  height: 100hv;
+  background-size: cover;
+  background-position: cover;
+}
+
+.logo{
+  width: 80px;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  float: left;
+}
+
+.barra-superior{
+  min-height: 4rem;
+}
+
+.barra-inferior{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.fil-eslogan{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+  color: white;
+}
+
+.card-image{
+  width: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+h5{
+  text-align: center;
+}
+
+#img-rio{
+  float: left;
+  width: 240px;
+  margin-right: 0.5rem;
+}
+
+#img-amazonas{
+  float: right;
+  width: 240px;
+  margin-left: 0.5rem;
+}
+
+.area-izq{
+  margin-left: 1rem;
+}
+
+#img-autor{
+  width: 200px;
+  display:block;
+  margin:auto
+}
+
+.redes-sociales{
+  width: 60px;
+  display:block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.btn-publicar{
+  display:block;
+  margin:auto
+}
+
+.responsive-img{
+  width: auto;
+}
+.fil-eslogan{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.contenedor-botones{
+  margin-top: 1rem;
+}
+
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+  .area-izq{
+    margin-bottom: 1rem;
+  }
+  #img-rio{
+    float: left;
+    width: auto;
+    margin-right: 0.5rem;
+  }
+
+  #img-amazonas{
+    float: right;
+    width: auto;
+    margin-left: 0.5rem;
+  }
+
+  .barra-superior{
+    margin-left: auto;
+    float: left;
+    margin-bottom: 1rem;
+  }
+}
